@@ -1,0 +1,20 @@
+{
+  "name": "poc-nodejs-ts",
+  "version": "1.0.0",
+  "description": "A project for learning Node.JS with TypeScript",
+  "main": "index.js",
+  "author": "Rafael Kremser",
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0"
+  }
+}
