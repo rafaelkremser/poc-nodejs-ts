@@ -9,12 +9,14 @@
     "dev": "tsx watch src/server.ts",
     "start": "node src/server.js",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
+    "build": "tsup src",
     "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@types/supertest": "^6.0.2",
     "supertest": "^7.0.0",
+    "tsup": "^8.0.2",
     "tsx": "^4.11.0",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
