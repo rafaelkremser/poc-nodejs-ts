@@ -1,7 +1,6 @@
 node_modules
-package-lock.json
 tsconfig.json
-db/app.db
-db/test.db
+db/*.db
 .env
 .env.test
+dist
