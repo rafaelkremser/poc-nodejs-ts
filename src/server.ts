@@ -1,13 +1,8 @@
-import fastify from 'fastify';
-
-const app = fastify();
-
-app.get('/hello', () => {
-    return 'Hello node';
-});
+import { env } from './env';
+import { app } from './app';
 
 app.listen({
-    port: 3333,
+    port: env.PORT,
 }).then(() => {
-    console.log(`Server running in PORT 3333`);
+    console.log(`Server running on PORT ${env.PORT}`);
 });
